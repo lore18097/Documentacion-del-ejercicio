@@ -27,3 +27,14 @@ Soleado, media, Normal, si, Jugar
 Nublado, media, Alta, si, Jugar
 Nublado, alta, Normal, no, Jugar
 Lluvia, media, Alta, si, No_jugar
+
+
+Generar el árbol de decisiones en weka 
+
+1.- Ubica en la parte superior donde dice preprocess presionamos a la derecha donde dice classify 
+2.- Hacemos Clic en Chosse 
+3.- Nos mostrara una lista ubicamos donde dice trees
+4.- Seleccionamos tres luego ubicamos J48 le damos clic
+5.- Presionamos Star 
+6.- Damos doble clic y seleccionamos  VISUALIZE TREE 
+7.- Nos mostrara el árbol de decisiones
