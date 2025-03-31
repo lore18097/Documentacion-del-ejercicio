@@ -1,0 +1,29 @@
+
+Esta información describe si se puede jugar tenis dependiendo del clima. Se usa datos sobre el ambiente, la temperatura, la humedad, el viento, para decidir si se juega o no. Esto sirve para predecir la decisión de jugar tenis en función de las condiciones climáticas 
+
+Declara el nombre del conjunto de datos, que en este caso se refiere a la decisión de jugar tenis 
+@relation tenis 
+
+Define los atributos teniendo posibles valores de cada uno de los posibles atributos 
+@attribute Ambiente {Soleado,Nublado,Lluvia}
+@attribute Temperatura {alta,baja,media}
+@attribute Humedad {Alta,Normal}
+@attribute Viento {si,no}
+@attribute Clase {No_jugar, Jugar} 
+
+Indica el comienzo de los datos que corresponden a las instancias del conjunto 
+@data 
+Soleado, alta, Alta, no, No_jugar
+Soleado, alta, Alta, si, No_jugar
+Nublado, alta, Alta, no, Jugar
+Lluvia, media, Alta, no, Jugar
+Lluvia, baja, Normal, no, Jugar
+Lluvia, baja, Normal, si, No_jugar
+Nublado, baja, Normal, si, Jugar
+Soleado, media, Alta, no, No_jugar
+Soleado, baja, Normal, no, Jugar
+Lluvia, media, Normal, no, Jugar
+Soleado, media, Normal, si, Jugar
+Nublado, media, Alta, si, Jugar
+Nublado, alta, Normal, no, Jugar
+Lluvia, media, Alta, si, No_jugar

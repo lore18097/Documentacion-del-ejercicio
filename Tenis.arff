@@ -1,0 +1,23 @@
+@relation tenis
+
+@attribute Ambiente {Soleado,Nublado,Lluvia}
+@attribute Temperatura {alta,baja,media}
+@attribute Humedad {Alta,Normal}
+@attribute Viento {si,no}
+@attribute Clase {No_jugar, Jugar} 
+
+@data 
+Soleado, alta, Alta, no, No_jugar
+Soleado, alta, Alta, si, No_jugar
+Nublado, alta, Alta, no, Jugar
+Lluvia, media, Alta, no, Jugar
+Lluvia, baja, Normal, no, Jugar
+Lluvia, baja, Normal, si, No_jugar
+Nublado, baja, Normal, si, Jugar
+Soleado, media, Alta, no, No_jugar
+Soleado, baja, Normal, no, Jugar
+Lluvia, media, Normal, no, Jugar
+Soleado, media, Normal, si, Jugar
+Nublado, media, Alta, si, Jugar
+Nublado, alta, Normal, no, Jugar
+Lluvia, media, Alta, si, No_jugar
